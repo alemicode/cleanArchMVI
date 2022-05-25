@@ -24,6 +24,7 @@ abstract class BaseTest {
     val application: TestBaseApplication
             = ApplicationProvider.getApplicationContext<Context>() as TestBaseApplication
 
+    //l
     abstract fun injectTest()
 
     // wait for a certain view to be shown.
